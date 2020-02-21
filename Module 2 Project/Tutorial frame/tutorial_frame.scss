@@ -1,0 +1,331 @@
+.Tutorial_frame{
+    position: absolute;
+    width: 1152px;
+    height: 700px;
+
+    background: #F4F4F4;
+}
+
+.title_bar{
+  height: 56px;
+  width: 100%;
+  padding-top: 18px;
+  
+  font-family: Lobster;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  vertical-align: center;
+
+  color: #3D3B3B;
+
+  background: #A2D7A9;
+}
+
+
+.ingredients_box{
+  position: absolute;
+  width: 246px;
+  height: 409px;
+  left: 59px;
+  top: 98px;
+
+  background: #FFFFFF;
+  opacity: 0.5;
+  box-shadow: -15px 10px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 33px;
+}
+
+.ingredients_content{
+  width: 208px;
+  height: 276px;
+  margin-left: 19px;
+  margin-top: 45px;
+  margin-bottom: 88px;
+  margin-right: 19px;
+  
+  h1{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+  }
+  p{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #000000;
+  }
+  
+}
+
+.description_and_start{
+  width: 492px;
+  height: 576px;
+  margin-top: 24px;
+  margin-left: 413px;
+
+}
+
+.image_component{
+  width: 370px;
+  height: 195px;
+  margin-left: 61px;
+  background: #DBEBDE;
+  border-radius: 17px;  
+  
+  img
+  {
+    height: 195px;
+    width : 226px;
+    margin-left: 72px;
+    margin-right: 72px;
+    
+    
+    top: calc(50% - 223px/2);
+
+   
+    border-radius: 64px;
+  }
+}
+
+.intro_description{
+  width: 492px;
+  height: 275px;
+  margin-top: 32px;
+
+  background: #A2D7A9;
+  border-radius: 33px;
+}
+
+.intro_slide_highlighted_paragraph_background{
+  width: 450px;
+  height: 242px;
+  margin-left: 21px;
+  margin-top: -259px;
+
+  background: #96C89D;
+  mix-blend-mode: normal;
+  border-radius: 55px;
+}
+
+.intro_slide_Title_and_paragraph{
+  width: 394px;
+  height: 191px;
+  margin-left: 49px;
+  margin-top: -227px;
+  
+  h1{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    /* or 117% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+  p{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* or 117% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+}
+
+.intro_start_button{
+  width: 199px;
+  height: 38px;
+  margin-left: 147px;
+  margin-top: 76px;
+
+  background: #93C399;
+  border-radius: 5px;
+  
+  h1{
+    height: 30px;
+    margin-left: 21px;
+    margin-right: 0px;
+    margin-bottom: 4px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #535252;
+  }
+  
+  
+}
+
+.blur_layer{
+  position: absolute;
+  width: 1152px;
+  height: 700px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(129, 124, 124, 0.4);
+  backdrop-filter: blur(2px);
+}
+
+.exit_menu{
+  position: absolute;
+  width: 144px;
+  height: 27px;
+  left: 896px;
+  top: 126px;
+}
+
+.exit_tutorial_text{
+  position: absolute;
+  width: 120px;
+  height: 23px;
+  left: 0px;
+  top: 0px;
+  float: left;
+
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.exit_vector{
+  position: absolute;
+  left: 121px;
+}
+
+.navigate_title{
+  position: absolute;
+  width: 587px;
+  height: 150px;
+  left: 282px;
+  top: 103px;
+
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 63px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 4px #000000;
+}
+
+.action_tutorial{
+  position: absolute;
+  width: 285px;
+  height: 122px;
+  left: 318px;
+  top: 540px;
+
+  background: url(https://i.imgur.com/CYLGnQQ.png);
+}
+
+.action_tutorial_text{
+  position: absolute;
+  width: 237px;
+  height: 58px;
+  left: 339px;
+  top: 571px;
+
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.ingr_tutorial{
+  position: absolute;
+  width: 177.12px;
+  height: 151.85px;
+  left: 57.03px;
+  top: 387px;
+
+  background: url(https://i.imgur.com/8K9mhJZ.png);
+  transform: matrix(1, 0.02, 0.02, -1, 0, 0);
+}
+
+.ingr_tutorial_text{
+  position: absolute;
+  width: 123px;
+  height: 78px;
+  left: 83px;
+  top: 448px;
+
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.instr_tutorial{
+  position: absolute;
+  width: 441px;
+  height: 114px;
+  left: 674px;
+  top: 253px;
+
+  background: url(https://i.imgur.com/OC7z04Q.png);
+}
+
+.instr_tutorial_text{
+  position: absolute;
+  width: 219px;
+  height: 64px;
+  left: 834px;
+  top: 277px;
+
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
